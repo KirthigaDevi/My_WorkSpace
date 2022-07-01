@@ -120,7 +120,14 @@
 			WebDriver driver = new FirefoxDriver();
 			driver.navigate().to("https://www.amazon.in/");
 			driver.manage().window().maximize();
-		System.out.println("***Login Successfull in Safari***");
+
+		
+			public void IE() {
+		System.setProperty("webdriver.gecko.driver", "C:\\eclipse\\drivers\\geckodriver.exe");
+			WebDriver driver = new FirefoxDriver();
+			driver.navigate().to("https://www.amazon.in/");
+			driver.manage().window().maximize();
+
 			}
 	}
 
