@@ -28,7 +28,7 @@
 			 * driver.findElement(By.id("ap_password")).sendKeys("Amazon@123");
 			 * driver.findElement(By.id("signInSubmit")).click();
 			 */
-			//*****Adding Product to cart*****
+			//*****Adding Product to CART*****
 
 			/*
 			 * //*driver.findElement(By.xpath("//*[@id=\'twotabsearchtextbox\']")).
@@ -45,7 +45,7 @@
 			 * 
 			 */
 
-			System.out.println("***Login Successfull in Chrome***");
+			System.out.println("***Login Successfull in CHROME***");
 		}
 
 		@Test
