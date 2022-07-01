@@ -116,17 +116,18 @@
 
 			public void Safari() {
 			
-				System.setProperty("webdriver.gecko.driver", "C:\\eclipse\\drivers\\geckodriver.exe");
+			System.setProperty("webdriver.gecko.driver", "C:\\eclipse\\drivers\\geckodriver.exe");
 			WebDriver driver = new FirefoxDriver();
 			driver.navigate().to("https://www.amazon.in/");
 			driver.manage().window().maximize();
+
 		
 			public void IE() {
-			
-				System.setProperty("webdriver.gecko.driver", "C:\\eclipse\\drivers\\geckodriver.exe");
+		System.setProperty("webdriver.gecko.driver", "C:\\eclipse\\drivers\\geckodriver.exe");
 			WebDriver driver = new FirefoxDriver();
 			driver.navigate().to("https://www.amazon.in/");
 			driver.manage().window().maximize();
+
 			}
 	}
 
